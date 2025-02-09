@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio | Raph</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Raph</h1>
+            <h2>Software Developer</h2>
+            <p>Email: raphael.softdevelop@gmail.com | Phone: {{ phone }}</p>
+        </header>
+        
+        <section class="about">
+            <h3>About Me</h3>
+            <p>{{ professionalSummary }}</p>
+        </section>
+
+        <section class="projects">
+            <h3>Projects</h3>
+            <div class="project">
+                <h4>Project Title 1</h4>
+                <p>Description of project 1.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h4>Project Title 2</h4>
+                <p>Description of project 2.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h4>Project Title 3</h4>
+                <p>Description of project 3.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>{{ skill }}</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h3>Contact</h3>
+            <p>If you'd like to get in touch, feel free to reach out!</p>
+            <a href="mailto:raphael.softdevelop@gmail.com" class="btn">Email Me</a>
+        </section>
+    </div>
+</body>
+</html>
